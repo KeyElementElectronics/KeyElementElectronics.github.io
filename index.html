@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" href="nav.css">
-    <!-- <script src="nav.js"></script> -->
-</head>
-
-<body>
-    <div id="main">
-        <nav class="navbar navbar-default">
-            <ul class="nav navbar-nav">
-                <li><a href="#0">Home</a></li>
-                <li><a href="#0">About</a></li>
-                <li class="dropdown">
-                    <a href="#0" class="dropdown-toggle" data-toggle="dropdown" data-target="dropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false">Clients<span class="caret"></span></a>
-                    <ul class="dropdown-menu" id="dropdon-menu">
-                        <li><a href="#0">Burger King</a></li>
-                        <li><a href="#0">Southwest Airlines</a></li>
-                        <li><a href="#0">Levi Strauss</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#0" class="dropdown-toggle" data-toggle="dropdown" data-target="dropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                    <ul class="dropdown-menu" id="dropdon-menu">
-                        <li><a href="#0">Print Design</a></li>
-                        <li><a href="#0">Web Design</a></li>
-                        <li><a href="#0">Mobile App Development</a></li>
-                    </ul>
-                </li>
-                <li><a href="#0">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+  </head>
+  <body>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="/" class="home-link">
+          <div class="navbar-logo"></div>
+          Website Name
+        </a>
+        <button
+          type="button"
+          id="navbar-toggle"
+          aria-controls="navbar-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-menu" aria-labelledby="navbar-toggle">
+          <ul class="navbar-links">
+            <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/blog">Blog</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/careers">Careers</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <script src="./JS/index.js"></script>
+  </body>
 </html>
