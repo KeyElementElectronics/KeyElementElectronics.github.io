@@ -171,7 +171,7 @@ body {
         position: static;
         display: block;
         height: 100%;
-        
+
     }
 
     .navbar-links,
@@ -186,3 +186,18 @@ body {
     }
 }
 
+.about-section {
+    margin-top: 2rem;
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.banking-details-section {
+    margin-bottom: 2rem;
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}

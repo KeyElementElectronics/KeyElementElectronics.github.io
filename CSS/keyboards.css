@@ -187,7 +187,7 @@ body {
 }
 
 .card {
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -223,3 +223,11 @@ body {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+
+  .about-section {
+    margin-top: 2rem;
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
