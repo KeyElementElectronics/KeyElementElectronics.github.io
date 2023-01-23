@@ -195,8 +195,8 @@ body {
     float: left;
     display: block;
     /* box-sizing: content-box; */
-    width: 14rem;
-    height: 18rem;
+    /* width: 14rem;
+    height: 18rem; */
   }
   
   .price {
